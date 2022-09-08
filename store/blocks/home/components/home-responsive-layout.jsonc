@@ -1,0 +1,50 @@
+{
+    "responsive-layout.phone#home__info--phone":{
+        "title": "Phone Component",
+        "children": [
+            "rich-text#home__info--phone"
+        ]
+    },
+    "rich-text#home__info--phone": {
+        "title": "Text info phone component",
+        "props": {
+            "text": "# Phone px size"
+        }
+    },
+    "responsive-layout.mobile#home__info--mobile":{
+        "title": "Mobile Component",
+        "children": [
+            "rich-text#home__info--mobile"
+        ]
+    },
+    "rich-text#home__info--mobile": {
+        "title": "Text info mobile component",
+        "props": {
+            "text": "# Mobile px size"
+        }
+    },
+    "responsive-layout.tablet#home__info--tablet":{
+        "title": "Tablet Component",
+        "children": [
+            "rich-text#home__info--tablet"
+        ]
+    },
+    "rich-text#home__info--tablet": {
+        "title": "Text info tablet component",
+        "props": {
+            "text": "# Tablet px size"
+        }
+    },
+    "responsive-layout.desktop#home__info--desktop":{
+        "title": "Desktop Component",
+        "children": [
+            "rich-text#home__info--desktop"
+        ]
+    },
+    "rich-text#home__info--desktop": {
+        "title": "Text info desktop component",
+        "props": {
+            "text": "# Desktop px size"
+        }
+    }
+}

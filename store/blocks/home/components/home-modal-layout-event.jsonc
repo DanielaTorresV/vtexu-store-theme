@@ -1,0 +1,28 @@
+{
+    "modal-trigger#home__modal": {
+        "children": [
+          "modal-layout#home__modal"
+        ],
+        "props": {
+          "trigger": "event",
+          "customPixelEventName": "pageView"
+        }
+      },
+      "modal-layout#home__modal": {
+        "children": [
+          "modal-header#home__modal--event",
+          "rich-text#home__modal"
+        ]
+      },
+      "modal-header#home__modal--event": {
+        "props": {
+          "showCloseButton": true
+        }
+      },
+      "rich-text#home__modal": {
+        "props": {
+          "text": "My modal"
+        }
+      }
+      
+}

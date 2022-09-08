@@ -1,0 +1,28 @@
+{
+    "modal-trigger#home__modal--children": {
+        "title": "Modal with trigger",
+        "children": [
+            "rich-text#home__modal--button",
+            "modal-layout#home__modal--info"
+        ]
+    },
+    "rich-text#home__modal--button": {
+        "title": "Button Modal",
+        "props":{
+            "text": "# Click Me"
+        }
+    },
+    "modal-layout#home__modal--info": {
+        "title": "Modal with content",
+        "children": [
+            "modal-header#home__modal--event",
+            "rich-text#modal__info--content"
+        ]
+    },
+    "rich-text#modal__info--content": {
+        "title": "Content modal",
+        "props": {
+            "text": "Hello this is my modal!"
+        }
+    }
+}
